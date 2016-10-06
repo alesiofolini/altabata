@@ -1,3 +1,3 @@
 $( "body" ).keypress(function() {
-  console.log( "Handler for .keypress() called." );
+  $("body").css("background-color","green");
 });
